@@ -15,7 +15,7 @@ def masodik_feladat():
     index = 0
     while index < len(lista):
         if index < 15:
-            print(f"\t{lista[index]}",end=";")
+            print(f"\t{lista[index]}",end="*")
         else:
             print(f"{lista[index]}",end="")
         index += 1
